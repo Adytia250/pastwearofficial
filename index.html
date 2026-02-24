@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASTWEAR - Memories Never Fade</title>
+    <!-- Link ke Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Link ke style.css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <nav id="navbar">
+    <div class="container nav-container">
+        <div class="logo">PASTWEAR</div>
+        
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">Story</a></li>
+            <li><a href="#products">Collection</a></li>
+            <li><a href="#testimonials">Review</a></li>
+        </ul>
+    </div>
+</nav>
+    <section id="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+        <span class="hero-tagline">Premium Vintage Goods</span>
+        <h1 id="typing-text"></h1> 
+        <div class="hero-divider"></div>
+        <h2>Memories Never Fade</h2>
+        <p class="tight-text">Terinspirasi dari kenangan, benda-benda lama, dan momen sederhana yang tak lekang oleh waktu.</p>
+        <div class="hero-btns">
+            <a href="https://shopee.co.id/shop/313207418" target="_blank" class="cta-button">Explore Shop</a>
+            <a href="#products" class="secondary-button">Our Collection</a>
+        </div>
+    </div>
+    <div class="scroll-indicator">
+        <span>Scroll</span>
+        <div class="line"></div>
+    </div>
+</section>
+
+    <!-- About Section -->
+    <section id="about">
+    <div class="container about-wrapper">
+        <div class="about-image">
+            <img src="Banner Brand.png" alt="Pastwear Aesthetic">
+            <div class="image-badge">Est. 2026</div>
+        </div>
+        <div class="about-text">
+            <span class="sub-title">The Story Behind</span>
+            <h2>Nostalgia dalam Tiap Jahitan</h2>
+            <p>Pastwear lahir dari kerinduan akan masa lalu. Dari kamera lama, kaset usang, hingga kenangan kecil yang sering terlupakan.</p>
+            <p>Kami percaya pakaian bukan sekadar apa yang kamu kenakan, tapi cerita yang kamu bawa. Setiap desain adalah upaya kami untuk mengabadikan momen yang tak lekang oleh waktu.</p>
+            <div class="signature">Memories Never Fade</div>
+        </div>
+    </div>
+</section>
+
+    <!-- Product Section -->
+    <section id="products">
+    <div class="container">
+        <span class="sub-title">Curated Selection</span>
+        <h2>Our Collection</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-img-wrapper">
+                    <span class="product-badge">Coming Soon</span>
+                    <img src="G.png" alt="Pastwear Vintage Camera Tee">
+                    <div class="product-overlay">
+                        <a href="https://shopee.co.id/shop/313207418" target="_blank" class="view-detail">View on Shopee</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Pastwear Ransom Tee</h3>
+                    <p class="price">IDR 0</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img-wrapper">
+                    <span class="product-badge">Coming Soon</span>
+                    <img src="C.png" alt="Pastwear Memories Tee">
+                    <div class="product-overlay">
+                        <a href="https://shopee.co.id/shop/313207418" target="_blank" class="view-detail">View on Shopee</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Pastwear Archive Tee</h3>
+                    <p class="price">IDR 0</p>
+                </div>
+            </div>
+        </div>
+   </div>
+</section>
+
+    <!-- Quote, Testimonials, and contact section -->
+    <section id="quote">
+    <div class="container">
+        <div class="quote-content">
+            <span class="quote-icon">“</span>
+            <blockquote>Old memories, timeless style.</blockquote>
+            <p class="quote-author">— Pastwear Philosophy</p>
+        </div>
+    </div>
+</section>
+
+<section id="testimonials" class="reveal">
+    <div class="container">
+        <span class="sub-title">Words of Memories</span>
+        <h2>Apa Kata Mereka</h2>
+        
+        <div class="testimonial-wrapper">
+            <button class="nav-btn prev" id="prevBtn">&#8249;</button>
+            
+            <div class="testimonial-slider">
+                <div id="reviews-container" class="testimonial-track">
+                    </div>
+            </div>
+
+            <button class="nav-btn next" id="nextBtn">&#8250;</button>
+        </div>
+
+        <div class="testimonial-dots" id="testimonialDots"></div>
+
+        <div class="divider-vintage"></div>
+        
+        <div class="comment-form-container" id="comment-form-section">
+            <h3>Leave a Memory</h3>
+            <form id="comment-form">
+                <input type="text" id="reviewer-name" placeholder="Nama Kamu" required>
+                <textarea id="reviewer-msg" placeholder="Bagikan Pengalaman Kamu..." required></textarea>
+                <button type="submit" class="btn-retro">Posting Ulasan</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section id="trust-bar">
+    <div class="container trust-container">
+        <div class="trust-item">✓ Premium Cotton Combed</div>
+        <div class="trust-item">✓ Eco-Friendly Packaging</div>
+        <div class="trust-item">✓ National Shipping</div>
+    </div>
+</section>
+
+<a href="https://wa.me/62895364707418" class="wa-floating" target="_blank" rel="noopener noreferrer">
+    <div class="wa-content">
+        <span class="wa-text">Chat with us</span>
+        <svg class="wa-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.72.937 3.659 1.432 5.631 1.433h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+    </div>
+</a>
+
+<!--FOOTER-->
+<footer>
+    <div class="container footer-content">
+        <div class="footer-brand">
+            <h3>PASTWEAR</h3>
+            <p>Memories Never Fade. Mengabadikan setiap kenangan dalam balutan gaya yang tak lekang oleh waktu.</p>
+        </div>
+        <div class="footer-group">
+            <div class="footer-links">
+    <h4>Explore</h4>
+    <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">Story</a></li>
+        <li><a href="#products">Collection</a></li>
+        <li><a href="#testimonials">Review</a></li>
+        <li><a href="https://shopee.co.id/shop/313207418" target="_blank">Shopee Store</a></li>
+    </ul>
+    </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <a href="https://instagram.com/pastwear.id" target="_blank" class="social-link">Instagram</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <p>&copy; 2026 PASTWEAR. All rights reserved. <br> <small>Privacy Policy | Terms of Service</small></p>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Link ke script.js -->
+    <script src="script.js"></script>
+</body>
+</html>
