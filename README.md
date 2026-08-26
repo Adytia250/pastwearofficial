@@ -83,7 +83,7 @@ pastwear-official/
 **Adytia Damar Panuntun**  
 *Full-Stack & Web Developer*
 
-- **Email:** [adytiaablek07@gmail.com](mailto:adytiaablek07@gmail.com)
+- **Email:** [adytiaoblek07@gmail.com](mailto:adytiaoblek07@gmail.com)
 - **GitHub:** [Adytia250](https://github.com/Adytia250)
 - **Live Platform:** [Pastwear Official](https://www.pastwearofficial.my.id/)
 
